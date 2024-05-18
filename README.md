@@ -30,3 +30,16 @@ parserOptions: {
 Run ESLint
 
 npx eslint . --ext .js,.jsx,.ts,.tsx
+
+## prettier support
+
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+
+[eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+eslint-plugin-prettier
+Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
+
+- create prettier cjs file and add desired settings
+
+eslint-config-prettier
+Turns off all rules that are unnecessary or might conflict with Prettier.

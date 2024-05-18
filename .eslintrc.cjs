@@ -4,16 +4,17 @@ module.exports = {
   extends: [
     'airbnb',
     'airbnb-typescript',
+    'plugin:react-hooks/recommended',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended'
   ],
   parserOptions: {
     project: './tsconfig.json'
   },
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'prettier'],
   rules: {
     'react/react-in-jsx-scope': 0,
     'react-refresh/only-export-components': [

@@ -1,7 +1,5 @@
 function App() {
-  return (
-    <>Ready...</>
-  );
+    return <>Ready...</>
 }
 
-export default App;
+export default App
